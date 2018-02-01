@@ -3,6 +3,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin")
 
 const path = require("path")
 module.exports = {
+    target:"electron",
     entry: './src/index.js',
     output:{
         path: __dirname + '/public',
