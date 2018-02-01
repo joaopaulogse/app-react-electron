@@ -1,6 +1,6 @@
 import React from "react"
 import { render } from "react-dom"
 
-import fs from 'fs'
+import App from './main/app'
 
-render(<div>teste</div>, document.getElementById("app"))
+render(<App/>, document.getElementById("app"))
